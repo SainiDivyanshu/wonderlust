@@ -628,3 +628,63 @@ color: white;
       margin-left: 35px;
     }
   }
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 8px;
+  }
+
+  .add-listing-btn {
+    width: auto;
+    padding: 10px 14px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  .search-btn {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50%;
+  }
+
+  .signup-btn,
+  .login-btn {
+    width: auto;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+  .navbar {
+    gap: 6px;
+    padding: 8px;
+  }
+
+  .add-listing-btn {
+    max-width: 100px;
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .search-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .signup-btn,
+  .login-btn {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+}
